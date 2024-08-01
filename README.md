@@ -3,17 +3,17 @@ Setup a python virtual env with python mongodb installed
 sudo apt update
 sudo apt install python3-pip
 
-# Install and activate virtual env (Linux/MacOS)
+## Install and activate virtual env (Linux/MacOS)
 python3 -m pip install virtualenv
 python3 -m venv ./venv
 source ./venv/bin/activate
 
-# Install and activate virtual env (Windows)
+## Install and activate virtual env (Windows)
 python3 -m pip install virtualenv
 python3 -m venv ./venv
 .\venv\Scripts\Activate.ps1
 
-# Install project python requirements
+## Install project python requirements
 pip install -r requirements.txt
 To run the API service
 python3 -m uvicorn main:app --reload
