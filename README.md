@@ -1,6 +1,6 @@
 Setup a python virtual env with python mongodb installed
 ## If pip is not present in you system
-sudo apt update
+```sudo apt update```
 sudo apt install python3-pip
 
 ## Install and activate virtual env (Linux/MacOS)
